@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import EventCard from '@/components/EventCard.vue'
 import EventService from '@/services/EventService.js'
+import EventCard from '@/components/EventCard.vue'
 
 const events = ref(null)
 
